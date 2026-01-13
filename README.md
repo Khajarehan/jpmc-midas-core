@@ -6,7 +6,7 @@ It simulates a real-world transaction processing system using Kafka, Spring Boot
 
 ---
 
-## 🧩 What this system does
+## What this system does
 
 - Consumes financial transactions from a Kafka topic  
 - Validates users and balances  
@@ -17,7 +17,7 @@ It simulates a real-world transaction processing system using Kafka, Spring Boot
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Java 17  
 - Spring Boot 3  
@@ -32,7 +32,7 @@ It simulates a real-world transaction processing system using Kafka, Spring Boot
 
 ## How to run
 
-### 1. Start the Incentive API
+1. Start the Incentive API
 cd services
 java -jar transaction-incentive-api.jar
 
@@ -42,8 +42,7 @@ mvn spring-boot:run
 3. Query a user balance
 GET http://localhost:33400/balance?userId=1
 
--> Run tests
+->Run tests
 mvn test
 
 This runs all JP Morgan verification tests including Kafka, database, and REST API checks.
-
